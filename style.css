@@ -4,29 +4,119 @@
     box-sizing: border-box;
 }
 
-.container{
+header{
     display: flex;
     width: 100%;
     justify-content:space-around;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
+
+
 ul{
-    display: flex
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
 }
 
 li{
     display: flex;
-    margin-left: 3rem;
     color: #9767A9;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 
 
 }
-input{
+.busca{
     border: 3px solid #9767A9;
     border-radius: 50px;
     opacity: 1;
     padding: 0 0.2em 0 0.6em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background{
+      background-image: url(imagens/cabeludo.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 41vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+
+.text-backgroud-h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+h1{ 
+    
+    color: white;
+    font-family: 'Playfair Display', serif;
+    flex-direction: column;
+    font-size: 100px;
+    width: 400px;
+
+}
+
+.text-backgroud-p{
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    width: 417px;
+}
+
+.caixa-roxa{
+    background-color:#9767A9;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.caixa-p{
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+
+}
+
+.caixa-h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    flex-direction: column;
+    width: 45%;
+}
+
+.espelho{
+    position: absolute;
+    width: 720px;
+    top: 876px;
+    left: 33px;
+}
+
+.fundo-espelho{
+   
+    background-color:#9767A9;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1380px;
+    left: 110px;
+
 }
