@@ -34,7 +34,10 @@ li{
     border-radius: 50px;
     opacity: 1;
     padding: 0 0.2em 0 0.6em;
+
+
 }
+
 
 a{
     text-decoration: none;
@@ -56,6 +59,7 @@ a{
     display: flex;
     align-items: center;
     
+    
 }
 h1{ 
     
@@ -73,6 +77,7 @@ h1{
     color: white;
     font-size: 30px;
     width: 417px;
+    font-weight: 100;
 }
 
 .caixa-roxa{
@@ -87,36 +92,398 @@ h1{
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     width: 45%;
     display: flex;
     justify-content: center;
     display: flex;
+    font-weight: 100;
+    
 
 }
 
 .caixa-h2{
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 35px;
     flex-direction: column;
     width: 45%;
+    
 }
 
 .espelho{
     position: absolute;
-    width: 720px;
+    width: 90vh;
     top: 876px;
     left: 33px;
+
 }
 
-.fundo-espelho{
-   
-    background-color:#9767A9;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 1380px;
-    left: 110px;
 
+
+
+
+section{
+    width: 100vh;
+    height: 100vw;
+}
+
+.box0{
+    height: 30vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 1330px;
+    left: 124px;
+    display: flex;
+    flex-wrap: wrap;
+
+        
+}
+
+.h2-espelho{
+    font-size: 24px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    margin-left: 1em;
+    margin-top: 2rem;
+}
+
+.p-espelho{
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+.box1{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.box2{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.img18{
+
+    width: 90vh;
+}
+
+
+.caixa2{
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 1632px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 129px;
+}
+
+.h2-18{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+}
+
+.p-18{
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+.box3{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+    
+}
+
+.img-19{
+    width: 90vh;
+
+
+}
+
+.caixa3{
+
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 2212px;
+    left: 124px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2-19{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+
+}
+
+.p-19{
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+.img-49{
+    width: 90vh;
+
+}
+
+.box4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+}
+
+.caixa4{
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 2543px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 129px;
+}
+
+.h2-49{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+
+
+}
+
+.p-49{
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+
+}
+
+.box5{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.caixa5{
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 3065px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 11rem;
+
+}
+
+.img55{
+    width: 90vh;
+}
+
+.h2-55{
+
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+
+
+}
+
+.p-55{
+
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+
+}
+
+.box6{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.caixa6{
+
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 3421px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 129px;
+
+}
+
+.img56{
+    width: 90vh;
+}
+
+.h2-56{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+
+}
+
+.p-56{
+
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+
+}
+
+
+.box7{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.img57{
+    width: 90vh;
+
+}
+
+.caixa7{
+
+
+    height: 23vw;
+    width: 30%;
+    background-color: #9767A9;
+    position: absolute;
+    top: 4068px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 133px;
+
+}
+
+.h2-57{
+
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 1em;
+    margin-top: 2rem;
+
+}
+
+
+.p-57{
+
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 1em;
+
+
+}
+
+.box8{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linha1{
+     
+    display: flex;
+    width: 200vh;
+    height: 54vw;
+    margin-bottom: 2rem;
+}
+.linha2{
+
+    display: flex;
+    width: 200vh;
+    height: 54vw;
+    margin-bottom: 2rem;
+}
+.linha3{
+
+    display: flex;
+    width: 200vh;
+    height: 54vw;
+    margin-bottom: 2rem;
+}
+.linha4{
+
+    display: flex;
+    width: 200vh;
+    height: 54vw;
+    margin-bottom: 2rem;
 }
