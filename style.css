@@ -33,14 +33,25 @@ li{
     border: 3px solid #9767A9;
     border-radius: 50px;
     opacity: 1;
-    padding: 0 0.2em 0 0.6em;
+    padding: 3px 0.2em 0 0.6em;
+    display: flex;
 
 
 }
 
+.pesquisar{
+
+    border: none;
+    outline: none;
+}
+
+
+
+
 
 a{
     text-decoration: none;
+
 }
 
 .background{
@@ -491,11 +502,15 @@ h1{
    justify-content: flex-end;
 }
 
+.img9{
 
+    height: 589px;    
+
+}
 
 
 .img10{
-    
+    height: 830px;
 
 
 }
@@ -523,8 +538,52 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    
 }
 
+.setas{
+
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+
+.topo{
+
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    width: 64%;
+    text-decoration: none;
+    color: white;
+}
+
+
+.anterior{
+
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.proxima{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    width: 25%;
+
+
+}
 .ul-footer{
  
     display: flex;
