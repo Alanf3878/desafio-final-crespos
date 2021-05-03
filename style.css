@@ -5,6 +5,15 @@
 }
 
 header{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+}
+
+
+
+
+.inicio{
     display: flex;
     width: 100%;
     justify-content:space-around;
