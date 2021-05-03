@@ -519,68 +519,85 @@ h1{
     margin-bottom: 2rem;
 }
 
+
 .container-grid{
- 
-   display: grid;
-   grid-template-columns: 0fr 0fr 0fr 0fr 0fr;
-   grid-gap:5px;
-   margin-left: 1rem;
-   
+
+    display: flex;
+    justify-items: center;
 }
+
+
 
 .img9{
 
-    height: 557px;  
+    height: 565px;
 
 }
 
 
 .img10{
-    height: 780px;
+    height: 796px;
 
 
 }
 .gloria{
 
-    width: 367px;
+    width: 360px;
 }
 
 .snop{
 
-    width: 240px;
+    width: 250px;
 }
 
 .img52{
-    width: 366px;
+    width: 365px;
 
 }
 
 .img11{
-    width: 241px;
+    width: 245px;
 
 }
 
 .img14{
-    width:243px;
+    width: 250px;
 
 
 }
 
 .img54{
-    width:243px;
+    width: 250px;
 
 }
 
 .img53{
-    width:243px;
-
+    width: 250px;
 
 }
 
 .img12{
-    width:243px;
+    width: 248px;
 
 }
+
+.div1{
+
+    margin: 0 4px 0 8px;
+}
+
+
+.img-grid{
+    margin: 2px;
+    width: 250px;
+}
+
+
+.div3{
+
+    margin-left: 3px;
+}
+
 
 
 .container-f{
@@ -647,3 +664,6 @@ h1{
     display: flex;
 
 }
+
+
+
