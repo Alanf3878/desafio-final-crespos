@@ -16,7 +16,7 @@ header{
 .inicio{
     display: flex;
     width: 100%;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -43,41 +43,55 @@ ul{
 
 }
 
+li{
+    display: flex;
+    color: #9767A9;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    
+
+
+}
+.busca{
+    border: 3px solid #9767A9;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 3px 0.2em 0 0.6em;
+    display: flex;
+
+
+}
+
+
 @media (max-width: 1170px){
-
-    .logo{
-
-        
-    }
-        
+ 
     .menu{
-        background: #9767A9;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
+        background-color: #9767A9;
+        width: 82px;
+        height: 85px;
         position: fixed;
-        top:25px;
-        left: 25px;
+        top: 0px;
         z-index: 999;
+        left: 0%;
         
     }
 
     .hamburguer{
-        position: relative;
-        display: block;
-        background: black;
-        width: 30px;
-        height: 2px;
-        top:29px;
-        left: 15px;
-        transition: 0.5s ease-in-out;
+     position: relative;
+     display: block;
+     background: white;
+     width: 30px;
+     height: 3px;
+     top: 45px;
+     left: 25px;
+     transition: 0.5s ease-in-out;
     }
 
     .hamburguer::before,
     .hamburguer::after{
 
 
-        background: black;
+        background:white;
         content: '';
         display: block;
         width: 100%;
@@ -126,7 +140,7 @@ ul{
 
     .barra{
 
-        background-color: #9767A9;
+        /*background-color: #9767A9;*/
         height: 100%;
         width: 300px;
         position: fixed;
@@ -143,7 +157,40 @@ ul{
     }
 
 
+
+    ul{
+        margin-top: 10px;
+        height: 100%;
+        display: block;
+        width: 100%;
+        margin-top: 582px;
+    
+
+
+    }
+
+    li{
+        height: 79px;
+        display: flex;
+        margin-bottom: 2px;
+        color: white;
+        font-size: 28px;
+        background-color: #9767A9;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
+
+@media (max-width: 1078px){
+
+
+
+
+}
+
+
 @media (min-width: 1170px){
 
     .input1{
@@ -157,24 +204,6 @@ ul{
 
 
 
-li{
-    display: flex;
-    color: #9767A9;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    
-
-
-}
-.busca{
-    border: 3px solid #9767A9;
-    border-radius: 50px;
-    opacity: 1;
-    padding: 3px 0.2em 0 0.6em;
-    display: flex;
-
-
-}
 
 @media (max-width: 1170px){
 
@@ -772,6 +801,24 @@ h1{
     margin-left: 3px;
 }
 
+
+.div1{
+    width: 25%;
+}
+
+.img-grid{
+    width: 20%;
+}
+
+.div2{
+    width: 20%;
+
+}
+
+.div3{
+
+    width: 20%;
+}
 
 
 .container-f{
